@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button1"
+            android:id="@+id/btn1"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button2"
+            android:id="@+id/btn2"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button3"
+            android:id="@+id/btn3"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button4"
+            android:id="@+id/btn4"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button5"
+            android:id="@+id/btn5"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button6"
+            android:id="@+id/btn6"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button7"
+            android:id="@+id/btn7"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button8"
+            android:id="@+id/btn8"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button9"
+            android:id="@+id/btn9"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button10"
+            android:id="@+id/btn10"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button11"
+            android:id="@+id/btn11"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Implicit Intent(묵시적 인텐트)"
+            android:id="@+id/btn12"
+            android:padding="10px"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service 시작"
+                android:id="@+id/serviceStartBtn"
+                android:layout_weight="1"
+                android:padding="10px"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service 중지"
+                android:id="@+id/serviceStopBtn"
+                android:layout_weight="1"
+                android:padding="10px"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Broadcast Sample Activity"
+            android:id="@+id/Btn13"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification 실행"
+            android:id="@+id/Btn14"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="button15 실행"
+            android:id="@+id/Btn15"
+            android:padding="10px"/>
+
+    </LinearLayout>
+
+</ScrollView>

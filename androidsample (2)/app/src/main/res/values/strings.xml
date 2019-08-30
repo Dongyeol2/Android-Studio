@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">androidsample</string>
+    <string name="button1">LinearLayout Example</string>
+    <string name="button2">Chatting Activity Example</string>
+    <string name="button3">Image처리 Activity Example</string>
+    <string name="button4">Touch Event, Toast Example</string>
+    <string name="button5">Activity간의 데이터 전달 Example</string>
+    <string name="button6">다른 Activity로 부터 데이터 받기 Example</string>
+    <string name="button7">ANR (Application Not Responding) Example</string>
+    <string name="button8">Counter App ( 에러!! ) Example</string>
+    <string name="button9">Counter App ( Handler ) Example</string>
+    <string name="button10">도서 검색 및 출력 Example</string>
+    <string name="button11">도서 검색(CUSTOM)</string>
+
+    <string name="toastMsg">Activity Touch!!!</string>
+
+
+    <string name="title_activity_android_lecture_example">AndroidLectureExample</string>
+</resources>
